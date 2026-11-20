@@ -2,7 +2,10 @@
 import streamlit as st
 import pandas as pd
 from pathlib import Path
-import pyodbc
+try:
+    import pyodbc
+except ImportError:
+    pyodbc = None
 
 # --------------------------------
 # 1. Page Configuration
@@ -758,6 +761,20 @@ elif page == "SQL Analysis":
 
         except Exception as e:
             st.error(f"SQL execution failed: {e}")
+
+        
+    if pyodbc is None:
+        st.warning("SQL Server connection is not available.")
+
+        st.info(
+            "The SQL Analysis feature requires a connection to "
+            "the project's SQL Server database. This connection "
+            "is available in the local development environment "
+            "but has not been configured for cloud deployment."
+        )
+
+        st.stop()
+
 
 
 

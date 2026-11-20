@@ -116,7 +116,7 @@ Used Microsoft SQL Server to answer 10 business questions related to:
 
 ### 5. Power BI Dashboard
 
-Developed five Power BI dashboard pages:
+Developed five interactive dashboard pages:
 
 1. Overall Dashboard
 2. Vehicle Type Analysis
@@ -217,7 +217,7 @@ git clone https://github.com/Jyotisrj/OLA_Ride_Insights.git
 ### 2. Navigate to the Project Folder
 
 ```bash
-cd OLA_Ride_Insights
+cd Ola_Ride_Insights
 ```
 
 ### 3. Create a Virtual Environment
