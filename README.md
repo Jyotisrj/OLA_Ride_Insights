@@ -116,7 +116,7 @@ Used Microsoft SQL Server to answer 10 business questions related to:
 
 ### 5. Power BI Dashboard
 
-Developed five interactive dashboard pages:
+Developed five Power BI dashboard pages:
 
 1. Overall Dashboard
 2. Vehicle Type Analysis
