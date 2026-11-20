@@ -8,5 +8,5 @@ ipykernel
 sqlalchemy
 pymysql
 streamlit
-plotlypython -m pip install --upgrade pip
+plotly
 pyodbc
