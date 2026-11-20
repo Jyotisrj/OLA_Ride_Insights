@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+openpyxl
+jupyter
+ipykernel
+sqlalchemy
+pymysql
+streamlit
+plotlypython -m pip install --upgrade pip
+pyodbc
