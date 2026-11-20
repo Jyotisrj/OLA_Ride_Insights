@@ -629,6 +629,17 @@ elif page == "Booking Data":
 elif page == "SQL Analysis":
 
     st.header("🗄️ SQL Analysis")
+
+    st.info("""
+    **SQL Server Connection Notice**
+
+    Live SQL query execution is available only in the local development environment because it requires a connection to the project's SQL Server database.
+
+    The online version of this application does not have access to the local SQL Server database. Therefore, SQL queries cannot be executed online.
+
+    Please run the application locally to execute all 10 SQL queries and view their results.
+    """)
+
     st.write("Explore results from the 10 SQL business questions.")
 
     queries = {
